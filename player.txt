@@ -1,0 +1,17 @@
+class player:
+  def play(self):
+    print("The player is playing cricket")
+  
+class  Batsman (player):
+  def play(self):
+    print("The batsman is playing batting")
+
+class Blower(player):
+  def play(self):
+    print("The blower is playing bowling")
+    
+batsman = Batsman() 
+blower = Blower()
+
+batsman.play()
+blower.play()
